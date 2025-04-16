@@ -1,19 +1,23 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import { brainwaveServices } from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
   VideoBar,
   VideoChatMessage,
 } from "./design/Services";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
-        <Heading title="Services - What We Provide" text="Manufest" />
+        <Heading
+          title="Services - What We Provide"
+          text="Empowering Manufacturing with Innovation"
+        />
 
         <div className="relative">
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
@@ -45,6 +49,26 @@ const Services = () => {
                   </li>
                 ))}
               </ul>
+              <div className="flex justify-center">
+                <Link
+                  to="/contact"
+                  className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group ml-6"
+                >
+                  Learn More
+                  <svg
+                    className="w-4 h-4 ml-1 group-hover:translate-x-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                </Link>
+              </div>
             </div>
           </div>
 
@@ -68,6 +92,26 @@ const Services = () => {
                   operations, optimize production, and drive smarter decisions —
                   fast.
                 </p>
+                <div className="flex justify-center">
+                  <Link
+                    to="/contact"
+                    className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
+                  >
+                    Learn More
+                    <svg
+                      className="w-4 h-4 ml-1 group-hover:translate-x-2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </Link>
+                </div>
               </div>
 
               <PhotoChatMessage />
@@ -75,34 +119,34 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">ERP & System Integration</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  Connect and enhance your internal operations with tailored ERP
+                  solutions. We build custom modules, synchronize your
+                  inventory, and ensure data flows smoothly between your systems
+                  — empowering smarter, faster decisions.
                 </p>
 
-                <ul className="flex items-center justify-between">
-                  {brainwaveServicesIcons.map((item, index) => (
-                    <li
-                      key={index}
-                      className={`rounded-2xl flex items-center justify-center ${
-                        index === 2
-                          ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
-                          : "flex w-10 h-10 bg-n-6 md:w-15 md:h-15"
-                      }`}
+                <div className="flex justify-center">
+                  <Link
+                    to="/contact"
+                    className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center px-6 py-2 my-6 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
+                  >
+                    Learn More
+                    <svg
+                      className="w-4 h-4 ml-1 group-hover:translate-x-2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
                     >
-                      <div
-                        className={
-                          index === 2
-                            ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
-                            : ""
-                        }
-                      >
-                        <img src={item} width={24} height={24} alt={item} />
-                      </div>
-                    </li>
-                  ))}
-                </ul>
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </Link>
+                </div>
               </div>
 
               <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
@@ -111,11 +155,9 @@ const Services = () => {
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}
-                  alt="Scary robot"
+                  alt="ERP dashboard"
                 />
-
-                <VideoChatMessage />
-                <VideoBar />
+                {/* You can add any animations or icons here if needed */}
               </div>
             </div>
           </div>

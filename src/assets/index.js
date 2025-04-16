@@ -40,7 +40,8 @@ import slack from "./collaboration/slack.png";
 import service1 from "./services/webapp.png";
 // import service2 from "./services/service-2.png";
 import service2 from "./services/aianal.png";
-import service3 from "./services/service-3.png";
+// import service3 from "./services/service-3.png";
+import service3 from "./services/erp.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
