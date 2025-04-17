@@ -9,6 +9,7 @@ import {
   VideoChatMessage,
 } from "./design/Services";
 import { Link } from "react-router-dom";
+import Button from "./Button";
 
 const Services = () => {
   return (
@@ -49,25 +50,27 @@ const Services = () => {
                   </li>
                 ))}
               </ul>
-              <div className="flex justify-center">
-                <Link
-                  to="/contact"
-                  className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group ml-6"
+              <div className="flex justify-center mt-4">
+                <Button
+                  className="hidden lg:flex items-center"
+                  href="#contact-us"
                 >
-                  Learn More
-                  <svg
-                    className="w-4 h-4 ml-1 group-hover:translate-x-2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clipRule="evenodd"
-                    ></path>
-                  </svg>
-                </Link>
+                  <span className="flex items-center">
+                    Learn More
+                    <svg
+                      className="w-4 h-4 ml-2"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </span>
+                </Button>
               </div>
             </div>
           </div>
@@ -93,24 +96,26 @@ const Services = () => {
                   fast.
                 </p>
                 <div className="flex justify-center">
-                  <Link
-                    to="/contact"
-                    className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
+                  <Button
+                    className="hidden lg:flex items-center"
+                    href="#contact-us"
                   >
-                    Learn More
-                    <svg
-                      className="w-4 h-4 ml-1 group-hover:translate-x-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
-                  </Link>
+                    <span className="flex items-center">
+                      Learn More
+                      <svg
+                        className="w-4 h-4 ml-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                  </Button>
                 </div>
               </div>
 
@@ -128,24 +133,26 @@ const Services = () => {
                 </p>
 
                 <div className="flex justify-center">
-                  <Link
-                    to="/contact"
-                    className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center px-6 py-2 my-6 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0"
+                  <Button
+                    className="hidden lg:flex items-center"
+                    href="#contact-us"
                   >
-                    Learn More
-                    <svg
-                      className="w-4 h-4 ml-1 group-hover:translate-x-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </Link>
+                    <span className="flex items-center">
+                      Learn More
+                      <svg
+                        className="w-4 h-4 ml-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        ></path>
+                      </svg>
+                    </span>
+                  </Button>
                 </div>
               </div>
 
