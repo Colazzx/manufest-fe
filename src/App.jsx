@@ -8,6 +8,7 @@ import Hero from "./components/Hero.jsx";
 import Services from "./components/Services.jsx";
 import About from "./components/About.jsx";
 import Webdev from "./components/Webdev.jsx";
+import Analytics from "./components/Analytics.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
           <About />
           <Services />
           <Webdev />
+          <Analytics />
         </div>
       </div>
 

@@ -36,16 +36,16 @@ const About = () => {
               data-aos="zoom-in"
               data-aos-delay="500"
             >
-              <h3 className="text-3xl text-blue-300 font-bold">About Us</h3>
+              <h4 className="h4 mb-4">What can Manufest do?</h4>
               <div>
-                <p className="my-3 text-xl text-gray-300 font-semibold">
+                <p className="body-2 mb-[3rem] text-n-3">
                   At Manufest, we provide custom web and application development
                   as decision support tools for marketing and operations.
                 </p>
               </div>
 
               <div>
-                <p className="my-3 text-xl text-gray-300 font-semibold">
+                <p className="body-2 mb-[3rem] text-n-3">
                   We also deliver cutting-edge AI and analytics microservice
                   solutions across industries like manufacturing, retail,
                   production distribution, HR, and logistics—helping businesses

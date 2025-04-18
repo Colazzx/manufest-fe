@@ -155,15 +155,15 @@ export const collabApps = [
     id: "0",
     title: "Website and Application Development",
     icon: webdev,
-    width: 1000,
-    height: 1000,
+    width: 2000,
+    height: 2000,
   },
 ];
 
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
+    title: "Automated Resource Planning",
     description: "AI chatbot, personalized recommendations",
     price: "0",
     features: [
@@ -174,7 +174,7 @@ export const pricing = [
   },
   {
     id: "1",
-    title: "Premium",
+    title: "Interactive System",
     description: "Advanced AI chatbot, priority support, analytics dashboard",
     price: "9.99",
     features: [
@@ -185,7 +185,7 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "Enterprise",
+    title: "Microservice Scalability",
     description: "Custom AI chatbot, advanced analytics, dedicated account",
     price: null,
     features: [

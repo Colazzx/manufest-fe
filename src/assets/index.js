@@ -5,7 +5,7 @@ import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
 import manufestLogo from "./manufest-logo.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
-import smallSphere from "./4-small.png";
+import chatbot from "./analytics/chatbot.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
@@ -25,7 +25,8 @@ import background from "./background.jpg";
 import analytics from "./hero/analytics.gif";
 import heroBackground from "./hero/hero-background.png";
 
-import webdev from "./collaboration/webdev.svg";
+import webdev from "./webdev/webdev.png";
+import graph from "./analytics/graph.png";
 
 // import service1 from "./services/service-1.png";
 import service1 from "./services/webapp.png";
@@ -79,7 +80,7 @@ export {
   manufestLogo,
   play,
   gradient,
-  smallSphere,
+  chatbot,
   grid,
   yourlogo,
   homeSmile,
@@ -96,6 +97,7 @@ export {
   analytics,
   heroBackground,
   webdev,
+  graph,
   service1,
   service2,
   service3,
