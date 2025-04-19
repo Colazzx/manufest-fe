@@ -9,6 +9,8 @@ import Services from "./components/Services.jsx";
 import About from "./components/About.jsx";
 import Webdev from "./components/Webdev.jsx";
 import Analytics from "./components/Analytics.jsx";
+import Client from "./components/Client.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   useEffect(() => {
@@ -29,6 +31,8 @@ const App = () => {
           <Services />
           <Webdev />
           <Analytics />
+          <Client />
+          <Footer />
         </div>
       </div>
 
