@@ -1,17 +1,13 @@
 import {
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
   chromecast,
   disc02,
-  discordBlack,
   facebook,
   webdev,
   file02,
   homeSmile,
   instagram,
+  WhatsApp,
+  email,
   notification2,
   notification3,
   notification4,
@@ -23,10 +19,13 @@ import {
   singapore,
   sydney,
   kbc,
+  costOptimization,
+  smartShiftScheduling,
+  timeAttendanceTracking,
+  timeCalculation,
+  eoq,
   searchMd,
   sliders04,
-  telegram,
-  twitter,
   yourlogo,
 } from "../assets";
 
@@ -38,25 +37,14 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Projects",
-    url: "#projects",
+    title: "Services",
+    url: "#services",
   },
   {
     id: "2",
     title: "Our Clients",
-    url: "#our-clients",
+    url: "#projects",
   },
-  // {
-  //   id: "3",
-  //   title: "Roadmap",
-  //   url: "#roadmap",
-  // },
-  // {
-  //   id: "4",
-  //   title: "New account",
-  //   url: "#signup",
-  //   onlyMobile: true,
-  // },
   {
     id: "3",
     title: "Contact Us",
@@ -173,124 +161,106 @@ export const collabApps = [
   },
 ];
 
-export const pricing = [
+export const keyFeatures = [
   {
     id: "0",
     title: "Automated Resource Planning",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    description: "AI-driven chatbot with tailored production insights",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Generates daily MRP schedules to optimize resource allocation",
+      "Ensures timely procurement and availability of materials, reducing downtime",
+      "Evaluates bottleneck resources—like manpower and machine capacity—to achieve the desired service level",
     ],
+    slideUp: true,
   },
   {
     id: "1",
     title: "Interactive System",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    description: "Advanced SmartBot, real-time analytics, priority support",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Interact with the system to explore action recommendations",
+      "Reduces excess inventory and associated holding costs",
+      "AI-driven analysis reduces excess inventory and holding costs, increasing profitability",
     ],
+    slideUp: false,
   },
   {
     id: "2",
     title: "Microservice Scalability",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    description: "Custom AI solutions, scalable analytics, dedicated support",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Adapts to businesses of all sizes, from small enterprises to large-scale manufacturers",
+      "Easily integrates with existing ERP systems for seamless operations",
+      "Its microservice architecture enables rapid deployment, easy updates, and minimal downtime",
     ],
+    slideUp: true,
   },
 ];
 
-export const benefits = [
+export const shiftScheduling = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    title: "Cost Optimization",
+    description:
+      "Analyze labor costs across different scheduling scenarios to identify cost reduction opportunities by optimizing staffing levels based on workload, while adhering to budget constraints for maximum cost-effectiveness.",
+    imageUrl: costOptimization,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true,
+    title: "Smart Shift Scheduling",
+    description:
+      "Automatically generate optimized shift schedules by factoring in minimum and maximum work hours, legally mandated break times, and employee skillsets or qualifications for specific tasks.",
+    imageUrl: smartShiftScheduling,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    title: "Time & Attendance Tracking",
+    description:
+      "Track worker location and attendance via mobile GPS, monitor adherence to scheduled shifts and breaks, and generate reports for payroll processing and labor cost analysis.",
+    imageUrl: timeAttendanceTracking,
+  },
+];
+
+export const inventoryManagement = [
+  {
+    id: "0",
+    title: "Reorder Time Calculation",
+    description:
+      "Automatically calculates the ideal reorder time using current inventory levels, lead times, and historical demand, while sending timely alerts to prevent stockouts and production delays.",
+    imageUrl: timeCalculation,
   },
   {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    id: "1",
+    title: "Economic Order Quantity (EOQ)",
+    description:
+      "Uses the EOQ model to minimize inventory costs by optimizing order size, while dynamically adjusting EOQ and safety stock based on shifting demand and cost patterns.",
+    imageUrl: eoq,
   },
 ];
 
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
+    title: "Instagram",
+    iconUrl: instagram,
+    url: "https://www.instagram.com/manufest.id?igsh=ejJoN2VvdjNja2k=",
   },
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
+    title: "WhatsApp",
+    iconUrl: WhatsApp,
+    url: "https://wa.me/6281993840791",
   },
   {
     id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
+    title: "Facebook",
+    iconUrl: facebook,
+    url: "https://www.facebook.com/share/1FRKvbwEW7/",
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    title: "Email",
+    iconUrl: email,
+    url: "mailto:hello@manufest.id",
   },
 ];

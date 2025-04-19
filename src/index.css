@@ -87,6 +87,7 @@
   @apply rotate-[-360deg];
 }
 
+
 /* Animation in Webdev Section */
 .animation {
   animation: updown 3s ease-in-out infinite alternate-reverse both;

@@ -10,9 +10,9 @@ import ContentAnalytics from "./ContentAnalytics";
 const Analytics = () => {
   return (
     <>
-      <Section crosses>
+      <Section crosses id="analytics">
         <Slide>
-          <Heading title="AI and Analytics Solution" />
+          <Heading title="AI, Analytics and System Integration Solution" />
         </Slide>
         <div className="w-full flex flex-col lg:flex-row items-stretch text-white bg-[#0a0a23]">
           {/* Left Column: Text */}

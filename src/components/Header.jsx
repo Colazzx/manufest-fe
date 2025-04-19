@@ -37,7 +37,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         {/* Logo and Title */}
-        <a className="flex items-center space-x-3" href="#Amogus">
+        <a className="flex items-center space-x-3" href="#hero">
           <img src={manufestLogo} alt="Manufest Logo" className="h-15 w-15" />
           <span className="text-n-1 text-3xl font-poppins font-bold">
             Manufest
@@ -55,13 +55,13 @@ const Header = () => {
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
-                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 ${
+                className={`block relative font-code text-4xl uppercase text-n-1 transition-colors hover:text-color-1 ${
                   item.onlyMobile ? "lg:hidden" : ""
-                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
+                } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-sm lg:font-semibold ${
                   item.url === pathName.hash
                     ? "z-2 lg:text-n-1"
                     : "lg:text-n-1/50"
-                } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
+                } lg:leading-6 lg:hover:text-n-1 xl:px-12`}
               >
                 {item.title}
               </a>
@@ -71,7 +71,12 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <Button className="hidden lg:flex" href="#contact-us">
+        <Button
+          className="hidden lg:flex"
+          href="https://wa.me/6281993840791?text=Hello%20Manufest%2C%20I%20would%20like%20to%20get%20in%20touch!"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Contact Us
         </Button>
 

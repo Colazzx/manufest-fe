@@ -6,6 +6,13 @@ import manufestLogo from "./manufest-logo.svg";
 import play from "./play.svg";
 import gradient from "./gradient.png";
 import chatbot from "./analytics/chatbot.png";
+import shift from "./analytics/shift.png";
+import costOptimization from "./analytics/cost-optim.png";
+import smartShiftScheduling from "./analytics/shift-schedule.png";
+import timeAttendanceTracking from "./analytics/attendance.png";
+import timeCalculation from "./analytics/time-calculation.png";
+import eoq from "./analytics/eoq.png";
+import inventory from "./analytics/inventory.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
@@ -65,11 +72,10 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
-import discordBlack from "./socials/discord.svg";
-import facebook from "./socials/facebook.svg";
-import instagram from "./socials/instagram.svg";
-import telegram from "./socials/telegram.svg";
-import twitter from "./socials/twitter.svg";
+import email from "./socials/email.png";
+import facebook from "./socials/facebook.png";
+import instagram from "./socials/instagram.png";
+import WhatsApp from "./socials/whatsapp.png";
 
 export {
   brainwave,
@@ -96,6 +102,13 @@ export {
   loading,
   background,
   analytics,
+  shift,
+  costOptimization,
+  smartShiftScheduling,
+  timeAttendanceTracking,
+  timeCalculation,
+  eoq,
+  inventory,
   heroBackground,
   webdev,
   graph,
@@ -128,9 +141,8 @@ export {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
-  discordBlack,
+  email,
   facebook,
   instagram,
-  telegram,
-  twitter,
+  WhatsApp,
 };

@@ -6,7 +6,7 @@ import "../index.css";
 
 const webDev = () => {
   return (
-    <Section crosses>
+    <Section crosses id="webdev">
       <div className="container lg:flex">
         <div className="max-w-[50rem]">
           <Slide>

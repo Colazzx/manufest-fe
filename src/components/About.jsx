@@ -8,7 +8,7 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <Section id="features" className="relative text-white">
+    <Section id="about" className="relative text-white">
       {/* Background Stars */}
       <div className="absolute inset-0 z-0">
         <Canvas>
@@ -55,7 +55,7 @@ const About = () => {
               <div className="flex justify-center">
                 <Button
                   className="hidden lg:flex items-center"
-                  href="#contact-us"
+                  href="#services"
                 >
                   <span className="flex items-center">
                     Learn More

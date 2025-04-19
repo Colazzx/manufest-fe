@@ -1,18 +1,20 @@
-import Button from "./Button";
 import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
 import { client } from "../constants";
 import { check2, grid, loading1 } from "../assets";
 import { Gradient } from "./design/Roadmap";
+import { Fade } from "react-awesome-reveal";
 
 const Client = () => (
-  <Section className="overflow-hidden" id="roadmap">
+  <Section crosses id="projects">
     <div className="container md:pb-10">
-      <Heading
-        tag="Ready to get started"
-        title="Here’s How We’ve Made an Impact:"
-      />
+      <Fade>
+        <Heading
+          tag="Ready to get started"
+          title="Here’s How We’ve Made an Impact"
+        />
+      </Fade>
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {client.map((item) => {
@@ -52,15 +54,15 @@ const Client = () => (
                   </div>
 
                   <div
-                    className={`w-full max-w-[300px] mx-auto ${
-                      item.rounded ? "rounded-lg overflow-hidden" : ""
+                    className={`w-full max-w-[350px] mx-auto ${
+                      item.rounded ? "rounded-2xl overflow-hidden" : ""
                     }`}
                   >
                     <img
                       className="w-full"
                       src={item.imageUrl}
-                      width={628}
-                      height={426}
+                      width={700}
+                      height={700}
                       alt={item.title}
                     />
                   </div>
